@@ -1,0 +1,13 @@
+---
+nombre: "McLaren MP4/4"
+escuderia: "McLaren"
+año: 1988
+pilotos: ["Ayrton Senna", "Alain Prost"]
+motor: "Honda RA168E"
+campeonatos_constructores: 1
+campeonatos_pilotos: 1
+victorias: 15
+pole_positions: 15
+img: "fw14b.jpg"
+---
+El McLaren MP4/4 es ampliamente considerado como uno de los **coches de Fórmula 1 más dominantes de todos los tiempos**. Con Ayrton Senna y Alain Prost al volante, ganó 15 de las 16 carreras de la temporada de 1988, asegurando ambos campeonatos.
