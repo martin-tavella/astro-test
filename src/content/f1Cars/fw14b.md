@@ -1,13 +1,14 @@
 ---
-nombre: "McLaren MP4/4"
-escuderia: "McLaren"
-año: 1988
-pilotos: ["Ayrton Senna", "Alain Prost"]
-motor: "Honda RA168E"
+nombre: "Williams FW14B"
+escuderia: "Williams"
+año: 1992
+pilotos: ["Nigel Mansell", "Riccardo Patrese"]
+motor: "Renault RS3C/RS4"
 campeonatos_constructores: 1
 campeonatos_pilotos: 1
-victorias: 15
+victorias: 10
 pole_positions: 15
+caracteristicas_notables: ["Suspensión activa", "Control de tracción"]
 img: "fw14b.jpg"
 ---
-El McLaren MP4/4 es ampliamente considerado como uno de los **coches de Fórmula 1 más dominantes de todos los tiempos**. Con Ayrton Senna y Alain Prost al volante, ganó 15 de las 16 carreras de la temporada de 1988, asegurando ambos campeonatos.
+El Williams FW14B es **uno de los coches más tecnológicamente avanzados y dominantes en la historia de la Fórmula 1**. Su suspensión activa y control de tracción le dieron una ventaja significativa sobre sus competidores en la temporada de 1992, llevando a Nigel Mansell a su único Campeonato Mundial de Pilotos.
