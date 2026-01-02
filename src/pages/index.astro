@@ -3,10 +3,8 @@ import Layout from "../layouts/Layout.astro";
 import { getCollection } from "astro:content";
 
 const f1Cars = await getCollection("f1Cars");
-console.log(f1Cars);
 
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+export const prerender = true;
 ---
 
 <Layout title="Autos históricos de F1">
@@ -38,6 +36,7 @@ console.log(f1Cars);
                   <article class="relative bg-gray-900 rounded-lg shadow-lg overflow-hidden transform transition-all duration-300 hover:scale-105 hover:shadow-2xl cursor-pointer">
                     <div class="absolute inset-0 bg-gradient-to-br from-red-800 to-black opacity-20 z-0" />
                     <img
+                      transition:name={`img-${slug}`}
                       src={`/public/${img}`}
                       alt={slug}
                       class="w-full aspect-video object-cover rounded-t-lg relative z-10"
